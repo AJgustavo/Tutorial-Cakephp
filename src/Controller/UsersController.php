@@ -16,7 +16,7 @@ class UsersController extends AppController
         $this->set('users', $users);
         //$this->set('user', $users);
     }
-    public function view($nombre)
+    public function view($nosdasdare)
     {
         echo "weeeeeennnaaaaaaaa xoroooooo $nombre";
         exit();
