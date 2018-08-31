@@ -10,13 +10,12 @@ use App\Controller\AppController;
 class UsersController extends AppController
 {
     public function index()
-    {         
-        die("asljdg");
+    {       
         $users = $this->paginate($this->Users);
         $this->set('users', $users);
         //$this->set('user', $users);
     }
-    public function view($nosdasdare)
+    public function view($nombre)
     {
         echo "weeeeeennnaaaaaaaa xoroooooo $nombre";
         exit();
